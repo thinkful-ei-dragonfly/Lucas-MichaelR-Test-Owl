@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Events /> renders without crashing [snapshot test] 1`] = `
+<p>
+  <span
+    className="chat-user-name"
+  >
+    Axe Kubicka
+  </span>
+   joined
+</p>
+`;

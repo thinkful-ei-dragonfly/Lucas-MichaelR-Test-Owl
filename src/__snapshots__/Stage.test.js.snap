@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stage /> renders without crashing [snapshot test] 1`] = `
+<div
+  className="Stage"
+>
+  <div
+    className="stage-user"
+  >
+    <div
+      className="stage-user-info"
+    >
+      <p>
+        <span
+          className="stage-user-name"
+        >
+          Koren Templeton
+        </span>
+      </p>
+      <span
+        className="stage-icons"
+      >
+        <span
+          className="volume"
+        >
+          <span
+            className="lnr lnr-volume-high"
+          />
+        </span>
+        <span
+          className="search"
+        >
+          <span
+            className="lnr lnr-magnifier"
+          />
+        </span>
+      </span>
+    </div>
+    <img
+      alt="Koren Templeton profile photo"
+      className="stage-img"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-user"
+  >
+    <div
+      className="stage-user-info"
+    >
+      <p>
+        <span
+          className="stage-user-name"
+        >
+          Ashla Attwool
+        </span>
+      </p>
+      <span
+        className="stage-icons"
+      >
+        <span
+          className="volume"
+        >
+          <span
+            className="lnr lnr-volume-high"
+          />
+        </span>
+        <span
+          className="search"
+        >
+          <span
+            className="lnr lnr-magnifier"
+          />
+        </span>
+      </span>
+    </div>
+    <img
+      alt="Ashla Attwool profile photo"
+      className="stage-img"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

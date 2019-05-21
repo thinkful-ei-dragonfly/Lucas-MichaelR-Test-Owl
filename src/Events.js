@@ -21,16 +21,16 @@ function Event(props){
 
   switch (props.type) {
     case 'thumbs-down':
-      chatString = <p><span className='chat-user-name'>{userList[0].name}</span> gave a thumbs down <span class="lnr lnr-thumbs-up"></span></p>
+      chatString = <p><span className='chat-user-name'>{userList[0].name}</span> gave a thumbs down <span className="lnr lnr-thumbs-up"></span></p>
       break;
     case 'thumbs-up':
-      chatString = <p><span className='chat-user-name'>{userList[0].name}</span> gave a thumbs up <span class="lnr lnr-thumbs-down"></span></p>
+      chatString = <p><span className='chat-user-name'>{userList[0].name}</span> gave a thumbs up <span className="lnr lnr-thumbs-down"></span></p>
       break;
     case 'clap':
-    chatString = <p><span className='chat-user-name'>{userList[0].name}</span> clapped <span class="lnr lnr-hand"></span><span class="lnr lnr-hand"></span></p>
+    chatString = <p><span className='chat-user-name'>{userList[0].name}</span> clapped <span className="lnr lnr-hand"></span><span className="lnr lnr-hand"></span></p>
       break;
     case 'raise-hand':
-      chatString = <p><span className='chat-user-name'>{userList[0].name}</span> raise their hand <span class="lnr lnr-hand"></span></p>
+      chatString = <p><span className='chat-user-name'>{userList[0].name}</span> raise their hand <span className="lnr lnr-hand"></span></p>
       break;
     case 'join':
       chatString = <p><span className='chat-user-name'>{userList[0].name}</span> joined</p>

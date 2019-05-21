@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat  /> renders without crashing [snapshot test] 1`] = `
+<div
+  className="chat-events"
+>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Axe Kubicka
+    </span>
+     joined
+  </p>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Axe Kubicka
+    </span>
+     joined the stage
+  </p>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Ashla Attwool
+    </span>
+     joined
+  </p>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Koren Templeton
+    </span>
+     raise their hand 
+    <span
+      className="lnr lnr-hand"
+    />
+  </p>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Koren Templeton
+    </span>
+     clapped 
+    <span
+      className="lnr lnr-hand"
+    />
+    <span
+      className="lnr lnr-hand"
+    />
+  </p>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Koren Templeton
+    </span>
+     joined
+  </p>
+  <div
+    className="User"
+  >
+    <div
+      className="image-wrapper"
+    >
+      <img
+        alt="user_avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="user-info"
+    >
+      <p>
+        <span
+          className="chat-user-name"
+        >
+          Axe Kubicka
+        </span>
+         
+        <span
+          className="chat-time"
+        >
+          4:50 a.m.
+        </span>
+      </p>
+      Hello world
+    </div>
+  </div>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Caty Flucker
+    </span>
+     gave a thumbs up 
+    <span
+      className="lnr lnr-thumbs-down"
+    />
+  </p>
+  <p>
+    <span
+      className="chat-user-name"
+    >
+      Frank Runciman
+    </span>
+     gave a thumbs down 
+    <span
+      className="lnr lnr-thumbs-up"
+    />
+  </p>
+</div>
+`;

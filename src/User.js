@@ -22,8 +22,8 @@ function User(props) {
       <div className='stage-user-info'>
         <p><span className='stage-user-name'>{props.name}</span></p>
         <span className='stage-icons'>
-          <span className='volume'><span class="lnr lnr-volume-high"></span></span>
-          <span className='search'><span class="lnr lnr-magnifier"></span></span>
+          <span className='volume'><span className="lnr lnr-volume-high"></span></span>
+          <span className='search'><span className="lnr lnr-magnifier"></span></span>
         </span>
       </div>
       <img src={props.avatar} className="stage-img" alt={props.name + ' profile photo'}/>

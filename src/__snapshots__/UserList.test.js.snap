@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserList  /> renders without crashing [snapshot test] 1`] = `
+<div
+  className="UserList"
+>
+  <div
+    className="User"
+  >
+    <div
+      className="image-wrapper"
+    >
+      <img
+        alt="user_avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="user-info"
+    >
+      <h4>
+        Koren Templeton
+      </h4>
+      <p
+        className="user-status"
+      >
+        on stage
+      </p>
+    </div>
+  </div>
+  <div
+    className="User"
+  >
+    <div
+      className="image-wrapper"
+    >
+      <img
+        alt="user_avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="user-info"
+    >
+      <h4>
+        Ashla Attwool
+      </h4>
+      <p
+        className="user-status"
+      >
+        on stage
+      </p>
+    </div>
+  </div>
+  <div
+    className="User"
+  >
+    <div
+      className="image-wrapper"
+    >
+      <img
+        alt="user_avatar"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="user-info"
+    >
+      <h4>
+        Caty Flucker
+      </h4>
+      <p
+        className="user-status"
+      >
+        in session
+      </p>
+    </div>
+  </div>
+  <div
+    className="User"
+  >
+    <div
+      className="image-wrapper"
+    >
+      <img
+        alt="user_avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="user-info"
+    >
+      <h4>
+        Axe Kubicka
+      </h4>
+      <p
+        className="user-status"
+      >
+        in session
+      </p>
+    </div>
+  </div>
+  <div
+    className="User"
+  >
+    <div
+      className="image-wrapper"
+    >
+      <img
+        alt="user_avatar"
+        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+      />
+    </div>
+    <div
+      className="user-info"
+    >
+      <h4>
+        Frank Runciman
+      </h4>
+      <p
+        className="user-status"
+      >
+        in session
+      </p>
+    </div>
+  </div>
+</div>
+`;

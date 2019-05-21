@@ -1,4 +1,9 @@
 const STORE = {
+  sidebarDisplay : 'chat',
+  changeSidebarDisplay : function(display) {
+    this.sidebarDisplay = display;
+    console.log(`sidebarDisplay: ${this.sidebarDisplay}`);
+  },
   participants : [
     {
         id: 1,
