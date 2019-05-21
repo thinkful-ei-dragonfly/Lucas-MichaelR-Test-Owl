@@ -1,0 +1,63 @@
+/* Participant List */
+.User {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.image-wrapper {
+  width: 50px;
+  margin-right: 10px;
+}
+.image-wrapper img {
+  max-width: 100%;
+}
+.user-info h4{
+  margin: 0.75em 0 0.5em 0;
+}
+.user-status {
+  margin-top: 0;
+}
+.user-status::before {
+  width: 10px;
+  height: 10px;
+  background: lightgreen;
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  margin-right: 7.5px;
+}
+
+/* Stage User */
+.stage-user {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stage-user img {
+  max-width: 75%;
+  margin: 0 auto;
+  width: 100%;
+}
+.stage-user-info {
+  background: rgba(30,40,53,.65);
+  color: white;
+  font-size: 18px;
+  font-weight: medium;
+  position: absolute;
+  top: 0;
+  left: 33%;
+  right: 33%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.stage-user-name {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #f37a7b;
+  border-radius: 2px;
+}
+.volume {
+  margin-right: 10px;
+}

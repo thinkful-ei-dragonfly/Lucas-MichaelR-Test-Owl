@@ -1,0 +1,23 @@
+.chat-events {
+  height: calc(100vh - 50px);
+  padding: 25px;
+}
+.chat-events p {
+  text-align: center;
+  font-size: 0.85em;
+  color: grey;
+  font-weight: 400;
+}
+.chat-events .User {
+  text-align: left;
+}
+.chat-events .User .user-info,
+.chat-events .User p {
+  text-align: left;
+}
+.User .chat-user-name {
+  font-weight: 800;
+}
+.chat-user-name {
+  font-weight: 600;
+}

@@ -1,0 +1,8 @@
+.Stage {
+  background: #404853;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+}

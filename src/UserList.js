@@ -1,7 +1,7 @@
 import React from 'react';
 
 import User from './User';
-import { userInfo } from 'os';
+import './Userlist.css';
 
 // filter STORE.participants.inSession === true
 
@@ -16,7 +16,6 @@ function UserList(props) {
   }).map(user => <User key={user.id} display={'inList'}avatar={user.avatar} name={user.name} onStage={user.onStage}/>);
 
   return <div className="UserList">
-    <p>This will be a list of users</p>
     {users}
   </div>
 }
